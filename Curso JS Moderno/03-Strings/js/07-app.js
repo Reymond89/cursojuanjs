@@ -4,6 +4,8 @@ console.log(producto.toLocaleUpperCase());
 // convierte todo el texto a minuscula
 console.log(producto.toLocaleLowerCase());
 
+const leche = 'La Mejor';
+console.log(leche.toLocaleUpperCase());
 
 const texto = 'Estoy Aprendiendo javascript';
 console.log(texto.toLocaleUpperCase())
@@ -20,3 +22,6 @@ if (registroEmail == registroEmail.toLocaleUpperCase()){
 const precioTicket = 300;
 console.log(precioTicket)
 console.log(precioTicket.toString())
+
+const precioLeche = 4000;
+console.log(precioLeche.toString());
