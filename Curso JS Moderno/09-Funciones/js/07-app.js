@@ -1,17 +1,18 @@
 
 // como se comunican las funciones
-inicianApp()
-function inicianApp(){
-    console.log('Iniciando app')
+
+inciandoApp()
+function inciandoApp(){
+    console.log('inciando la aplicacion');
     segundaFuncion()
 }
 
-function segundaFuncion (){
-    console.log('Desde la segunda funcion')
-    usuarioAutenticado('reymond')
+function segundaFuncion(){
+    console.log('Iniciando desde la segunda funcion')
+    autenticarUsuario('Reymond')
 }
 
-function usuarioAutenticado (usuario){
-    console.log('Autenticando usuario, espere!!!')
-    console.log(`usuario autenticado exitosamente: ${usuario}`)
+function autenticarUsuario(usuario){
+    console.log('Autenticando Usuario por favor espere!!')
+    console.log(`Usuario ${usuario} registgardo exitosamente!!`)
 }
